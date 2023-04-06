@@ -10,3 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ .card-header input {
+    background-color: transparent;
+ }
+
+ .card-footer {
+    font-size: 0.7em;
+    color: grey;
+ }
+
+ .card{
+    max-width: 30rem;
+    margin:auto;
+    margin-top: 1em;
+ }
+
+ #showX {
+    display: none;
+ }
+
+ #task li:hover #showX{
+    display: block;
+ }
+
